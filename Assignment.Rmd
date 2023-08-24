@@ -2,7 +2,7 @@
 title: "Assignment"
 author: "Andrew Graham"
 date: "2023-08-24"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
@@ -11,20 +11,31 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+```{r}
+library(raster)
+library(habtools)
+library(ggplot2)
+library(dplyr)
+library(fishualize)
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+plot(horseshoe)
 ```
+### About me
 
-## Including Plots
+### Current Lab
+Coral Reef Ecology Lab and Cynthia Hunter Lab
 
-You can also embed plots, for example:
+### Project focus
+Assessment and monitoring of coral reefs statewide and field and mesocosm experiments. Masters thesis on how fish flight initiation distance is affected by coral reef rugosity 
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+### Why you chose this course
+Interested in learning how coral reef structure affects the populations that live in it
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### What do you want to learn about the most in this course
+Coral rugosity measurement methodology
+
+### Your R experience
+Low, Introduced to R last Fall with no prior experience. Class focused on project specific stats with little else
+
+### Fun Fact
+I love to spearfish and freedive in my free time.
